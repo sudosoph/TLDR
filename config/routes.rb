@@ -16,6 +16,8 @@ TLDR::Application.routes.draw do
 
   get 'privacy' => 'site#privacy'
   get 'terms'   => 'site#terms'
+  get 'list'    => 'site#list'
 
-  root 'site#index'
+  root 'site#main'
+
 end

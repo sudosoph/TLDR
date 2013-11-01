@@ -1,3 +1,7 @@
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require bootstrap
+//= require jquery.noty
+//= require_tree ./themes
+//= require_tree ./layouts
+//= require_self
